@@ -20,7 +20,7 @@ const getCountryHTML = country => {
     <div class="country">
     <h2>${country.name}</h2>
     <h3>${country.capital}</h3>
-    <img src= "${country.flag}">
+    <img data-aos="zoom-in" src= "${country.flag}">
     </div>
     `
 }
