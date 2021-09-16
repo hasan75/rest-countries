@@ -7,11 +7,12 @@ const loadCountries = () => {
 }
 
 const displayCountries = countries => {
-    console.log(countries[0])
+    //console.log(countries[0])
     const container = document.getElementById('countries');
+    //map function used to do practice, here foreach will be better solution
     const countryHTML = countries.map(country => getCountryHTML(country));
     container.innerHTML = countryHTML.join(' ');
-    console.log(countryHTML[0])
+    //console.log(countryHTML[0])
 }
 
 const getCountryHTML = country => {
